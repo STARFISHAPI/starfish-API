@@ -6,7 +6,7 @@
 # 请求与订阅说明
 ## 1.访问地址
 
-行情请求地址为：wss://marketinfo.starfish.com
+行情请求地址为：wss://marketinfo.starfish3.com
 
 ## 2.数据包描述:
 
