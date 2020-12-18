@@ -152,8 +152,10 @@ repealorder 接口入参
 
 `market   ：  市场`
 `coin     ：  币种`
+
 getcoinprice 返回值 JSON 
-status: 200-成功 300-失败
-data：交易对 币种价格
-msg： 
+
+`status   ：  200-成功 300-失败`
+`data     ：  币种价格`
+`msg     ：  消息`
 
