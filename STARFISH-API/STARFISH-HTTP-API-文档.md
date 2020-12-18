@@ -84,6 +84,18 @@ timestamp：时间戳，需要和服务器之间的时间相差小于20秒
 ### 查询可用交易对
 
 `https://api.starfish3.com/api/pairlist`
+### getcoinprice 获取交易对价格
+ getcoinprice 接口入参
+
+`market   ：  市场`
+`coin     ：  币种`
+
+getcoinprice 返回值 JSON 
+
+`status   ：  200-成功 300-失败`
+`data     ：  币种价格`
+`msg     ：  消息`
+
 
 # 非公开接口API
 STARFISH的API请求，除公开的API外都需要使用APIkey 以及 使用secret签名生成的Token
@@ -146,16 +158,4 @@ repealorder 接口入参
 
 `getbalance 接口入参`
 不需要其他参数
-
-### getcoinprice 获取交易对价格
- getcoinprice 接口入参
-
-`market   ：  市场`
-`coin     ：  币种`
-
-getcoinprice 返回值 JSON 
-
-`status   ：  200-成功 300-失败`
-`data     ：  币种价格`
-`msg     ：  消息`
 
