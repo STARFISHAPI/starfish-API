@@ -20,6 +20,7 @@ STARFISH使用API key 和 API secret 进行验证，请访问用户中心申请A
 > * **getservertime 获取服务器时间戳**
 > * **pairlist 交易对列表**
 > * **coinlist 币种列表**
+> * **getcoinprice 获取币种价格 **
 
 # 定义与Token签名方式
 
@@ -145,3 +146,14 @@ repealorder 接口入参
 
 `getbalance 接口入参`
 不需要其他参数
+
+### getcoinprice 获取交易对价格
+ getcoinprice 接口入参
+
+`market   ：  市场`
+`coin     ：  币种`
+getcoinprice 返回值 JSON 
+status: 200-成功 300-失败
+data：交易对 币种价格
+msg： 
+
