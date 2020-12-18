@@ -20,7 +20,7 @@ STARFISH使用API key 和 API secret 进行验证，请访问用户中心申请A
 > * **getservertime 获取服务器时间戳**
 > * **pairlist 交易对列表**
 > * **coinlist 币种列表**
-> * **getcoinprice 获取币种价格 **
+> * **getcoinprice 获取币种价格**
 
 # 定义与Token签名方式
 
